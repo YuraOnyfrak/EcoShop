@@ -1,0 +1,8 @@
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Domain\bin\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Domain.deps.json
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Domain\bin\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Domain.dll
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Domain\bin\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Domain.pdb
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Domain\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Domain.csproj.CoreCompileInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Domain\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Domain.AssemblyInfoInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Domain\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Domain.AssemblyInfo.cs
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Domain\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Domain.dll
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Domain\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Domain.pdb

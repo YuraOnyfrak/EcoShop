@@ -1,0 +1,12 @@
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Application\bin\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Application.deps.json
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Application\bin\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Application.dll
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Application\bin\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Application.pdb
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Application\bin\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Domain.dll
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Application\bin\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Domain.pdb
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Application\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Application.csprojAssemblyReference.cache
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Application\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Application.csproj.CoreCompileInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Application\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Application.AssemblyInfoInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Application\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Application.AssemblyInfo.cs
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Application\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Application.csproj.CopyComplete
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Application\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Application.dll
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Application\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Application.pdb

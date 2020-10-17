@@ -1,0 +1,9 @@
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Infrastructure\bin\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Infrastructure.deps.json
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Infrastructure\bin\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Infrastructure.dll
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Infrastructure\bin\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Infrastructure.pdb
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Infrastructure.csproj.CoreCompileInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Infrastructure.AssemblyInfoInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Infrastructure.AssemblyInfo.cs
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Infrastructure.dll
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Infrastructure.pdb
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Entrepreneur.Infrastructure.csprojAssemblyReference.cache

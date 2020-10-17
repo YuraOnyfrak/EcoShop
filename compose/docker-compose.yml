@@ -1,0 +1,47 @@
+version: '3.4'
+
+services: 
+  gateway-service:
+    build: 
+      context: ../
+      dockerfile: TestProject/Dockerfile
+    image: api-gateway
+    container_name: api-gateway
+    #  network_mode: host
+    restart: always
+    ports:
+      - 5000:5000
+
+  identity-service:
+    build: 
+      context: ../
+      dockerfile: TestProject.IdentityService/src/TestProject.IdentityService.Api/Dockerfile
+    restart: always
+    ports:
+      - 5001:5001  
+
+  entrepreneur-service:
+    build: 
+      context: ../
+      dockerfile: EcoShop.Entrepreneur/src/EcoShop.Entrepreneur.Api/Dockerfile
+    restart: always
+    ports:
+      - 5003:5003
+
+  first-service:
+    build: 
+      context: ../TestProject.ServiceOne/
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 5004:5004
+  
+  second-service:
+    build: 
+      context: ../TestProject.ServiceTwo/
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 5005:5005
+  
+

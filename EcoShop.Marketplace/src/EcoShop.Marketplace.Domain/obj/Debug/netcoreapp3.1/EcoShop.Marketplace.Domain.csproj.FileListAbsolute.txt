@@ -1,0 +1,9 @@
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Domain\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Domain.deps.json
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Domain\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Domain.dll
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Domain\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Domain.pdb
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Domain\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Domain.csprojAssemblyReference.cache
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Domain\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Domain.csproj.CoreCompileInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Domain\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Domain.AssemblyInfoInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Domain\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Domain.AssemblyInfo.cs
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Domain\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Domain.dll
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Domain\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Domain.pdb
