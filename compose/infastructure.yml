@@ -1,15 +1,15 @@
 version: '3.4'
 
 services: 
-  #rabbitmq:
-  #  image: rabbitmq:3-management
-  #  container_name: rabbitmq
-  #  ports:
-  #    - 5672:5672
-  #    - 15672:15672    
-  #  network_mode: host
-  #  volumes: 
-  #   - rabbitmq:/var/lib/rabbitmq
+  rabbitmq:
+    image: rabbitmq:latest
+    container_name: rabbitmq
+    ports:
+      - 5672:5672
+    #  - 15672:15672    
+    #network_mode: host
+    volumes: 
+      - rabbitmq:/var/lib/rabbitmq
 
   consul:
     image: consul
@@ -51,18 +51,46 @@ services:
   postgis:
     image: postgis/postgis:12-master
     ports:
-         - 5432:5432
+      - 5432:5432
     restart: always
     environment: 
-            POSTGRES_PASSWORD: example
+      POSTGRES_PASSWORD: example
   admin:
     image: dpage/pgadmin4
     restart: always
     ports:
-         - 8888:80
+      - 8888:80
     environment:
-         - PGADMIN_DEFAULT_EMAIL=test@mail.ua
-         - PGADMIN_DEFAULT_PASSWORD=example
+      - PGADMIN_DEFAULT_EMAIL=test@mail.ua
+      - PGADMIN_DEFAULT_PASSWORD=example
+
+  redis:
+    image: redis:latest
+    ports:
+      - 6379:6379 
+
+  vault:
+    image: vault
+    container_name: vault
+    ports:
+      - 8200:8200
+    #networks:
+    #  - dshop
+    # network_mode: host
+    environment:
+      - VAULT_ADDR=http://127.0.0.1:8200
+      - VAULT_DEV_ROOT_TOKEN_ID=secret
+    cap_add:
+      - IPC_LOCK
+
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    ports:
+      - "6831:6831/udp"
+      - "6832:6832/udp"
+      - "5778:5778"
+      - "16686:16686"
+      - "14268:14268"
 
 volumes:
   consul:

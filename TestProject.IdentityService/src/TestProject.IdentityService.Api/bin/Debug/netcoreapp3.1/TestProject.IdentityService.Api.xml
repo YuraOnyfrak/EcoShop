@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestProject.IdentityService.Api</name>
+    </assembly>
+    <members>
+        <member name="M:TestProject.IdentityService.Api.Controllers.AuthController.SignUp(TestProject.IdentityService.Application.Messages.Command.SignUpCommand)">
+            <summary>
+            Register
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestProject.IdentityService.Api.Controllers.AuthController.SignIn(TestProject.IdentityService.Application.Messages.Command.SignInCommand)">
+            <summary>
+            
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestProject.IdentityService.Api.Controllers.TokenController.GenereteToken">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestProject.IdentityService.Api.Controllers.TokenController.GenereterefreshToken">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

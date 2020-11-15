@@ -1,0 +1,9 @@
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\bin\Debug\netcoreapp3.1\EcoShop.Products.Domain.deps.json
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\bin\Debug\netcoreapp3.1\EcoShop.Products.Domain.dll
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\bin\Debug\netcoreapp3.1\EcoShop.Products.Domain.pdb
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\obj\Debug\netcoreapp3.1\EcoShop.Products.Domain.csprojAssemblyReference.cache
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\obj\Debug\netcoreapp3.1\EcoShop.Products.Domain.csproj.CoreCompileInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\obj\Debug\netcoreapp3.1\EcoShop.Products.Domain.AssemblyInfoInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\obj\Debug\netcoreapp3.1\EcoShop.Products.Domain.AssemblyInfo.cs
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\obj\Debug\netcoreapp3.1\EcoShop.Products.Domain.dll
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\obj\Debug\netcoreapp3.1\EcoShop.Products.Domain.pdb

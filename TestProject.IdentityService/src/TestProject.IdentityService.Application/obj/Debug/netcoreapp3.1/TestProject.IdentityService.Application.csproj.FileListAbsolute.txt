@@ -1,0 +1,14 @@
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\bin\Debug\netcoreapp3.1\TestProject.IdentityService.Application.deps.json
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\bin\Debug\netcoreapp3.1\TestProject.IdentityService.Application.dll
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\bin\Debug\netcoreapp3.1\TestProject.IdentityService.Application.pdb
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\bin\Debug\netcoreapp3.1\EcoShop.Common.dll
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\bin\Debug\netcoreapp3.1\TestProject.IdentityService.Domain.dll
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\bin\Debug\netcoreapp3.1\EcoShop.Common.pdb
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\bin\Debug\netcoreapp3.1\TestProject.IdentityService.Domain.pdb
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\obj\Debug\netcoreapp3.1\TestProject.IdentityService.Application.csprojAssemblyReference.cache
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\obj\Debug\netcoreapp3.1\TestProject.IdentityService.Application.csproj.CoreCompileInputs.cache
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\obj\Debug\netcoreapp3.1\TestProject.IdentityService.Application.AssemblyInfoInputs.cache
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\obj\Debug\netcoreapp3.1\TestProject.IdentityService.Application.AssemblyInfo.cs
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\obj\Debug\netcoreapp3.1\TestProject.IdentityService.Application.csproj.CopyComplete
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\obj\Debug\netcoreapp3.1\TestProject.IdentityService.Application.dll
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Application\obj\Debug\netcoreapp3.1\TestProject.IdentityService.Application.pdb

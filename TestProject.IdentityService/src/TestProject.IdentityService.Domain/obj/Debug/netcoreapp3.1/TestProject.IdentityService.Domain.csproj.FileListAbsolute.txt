@@ -1,0 +1,9 @@
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Domain\bin\Debug\netcoreapp3.1\TestProject.IdentityService.Domain.deps.json
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Domain\bin\Debug\netcoreapp3.1\TestProject.IdentityService.Domain.dll
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Domain\bin\Debug\netcoreapp3.1\TestProject.IdentityService.Domain.pdb
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Domain\obj\Debug\netcoreapp3.1\TestProject.IdentityService.Domain.csprojAssemblyReference.cache
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Domain\obj\Debug\netcoreapp3.1\TestProject.IdentityService.Domain.csproj.CoreCompileInputs.cache
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Domain\obj\Debug\netcoreapp3.1\TestProject.IdentityService.Domain.AssemblyInfoInputs.cache
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Domain\obj\Debug\netcoreapp3.1\TestProject.IdentityService.Domain.AssemblyInfo.cs
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Domain\obj\Debug\netcoreapp3.1\TestProject.IdentityService.Domain.dll
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Domain\obj\Debug\netcoreapp3.1\TestProject.IdentityService.Domain.pdb

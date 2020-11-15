@@ -33,6 +33,7 @@ namespace TestProject.Controllers
             _firstService = firstService;
         }
           
+        [HttpGet]
         public IActionResult Index()
         {
             return Ok();

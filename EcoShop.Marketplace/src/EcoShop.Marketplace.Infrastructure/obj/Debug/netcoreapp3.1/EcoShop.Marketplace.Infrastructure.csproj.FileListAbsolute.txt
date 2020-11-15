@@ -1,0 +1,8 @@
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Infrastructure\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Infrastructure.deps.json
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Infrastructure\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Infrastructure.dll
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Infrastructure\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Infrastructure.pdb
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Infrastructure.csproj.CoreCompileInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Infrastructure.AssemblyInfoInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Infrastructure.AssemblyInfo.cs
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Infrastructure.dll
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Infrastructure.pdb

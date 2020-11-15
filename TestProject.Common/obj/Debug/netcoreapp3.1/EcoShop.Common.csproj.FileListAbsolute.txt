@@ -1,0 +1,9 @@
+D:\IT\Projects\TestProject\TestProject.Common\bin\Debug\netcoreapp3.1\EcoShop.Common.deps.json
+D:\IT\Projects\TestProject\TestProject.Common\bin\Debug\netcoreapp3.1\EcoShop.Common.dll
+D:\IT\Projects\TestProject\TestProject.Common\bin\Debug\netcoreapp3.1\EcoShop.Common.pdb
+D:\IT\Projects\TestProject\TestProject.Common\obj\Debug\netcoreapp3.1\EcoShop.Common.AssemblyInfoInputs.cache
+D:\IT\Projects\TestProject\TestProject.Common\obj\Debug\netcoreapp3.1\EcoShop.Common.AssemblyInfo.cs
+D:\IT\Projects\TestProject\TestProject.Common\obj\Debug\netcoreapp3.1\EcoShop.Common.dll
+D:\IT\Projects\TestProject\TestProject.Common\obj\Debug\netcoreapp3.1\EcoShop.Common.pdb
+D:\IT\Projects\TestProject\TestProject.Common\obj\Debug\netcoreapp3.1\EcoShop.Common.csprojAssemblyReference.cache
+D:\IT\Projects\TestProject\TestProject.Common\obj\Debug\netcoreapp3.1\EcoShop.Common.csproj.CoreCompileInputs.cache

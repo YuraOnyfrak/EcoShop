@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EcoShop.ApiGateway</name>
+    </assembly>
+    <members>
+        <member name="M:EcoShop.ApiGateway.Controllers.EntrepreneurController.CreateAsync(EcoShop.ApiGateway.Models.Entrepreneur.CreateSupplierModel)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EcoShop.ApiGateway.Controllers.EntrepreneurController.UpdateAsync(EcoShop.ApiGateway.Models.Entrepreneur.UpdateSupplierModel)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EcoShop.ApiGateway.Controllers.ProductController.CreateAsync(EcoShop.ApiGateway.Models.Product.CreateProductModel)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

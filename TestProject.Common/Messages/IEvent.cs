@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Project.Common.Messages
+namespace EcoShop.Common.Messages
 {
     public interface IEvent : IMessage
     {

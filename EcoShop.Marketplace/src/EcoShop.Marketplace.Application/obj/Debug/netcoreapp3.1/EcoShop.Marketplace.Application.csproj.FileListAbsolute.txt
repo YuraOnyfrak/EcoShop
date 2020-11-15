@@ -1,9 +1,12 @@
 D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.deps.json
 D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.dll
-D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.pdb
 D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.csprojAssemblyReference.cache
-D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.csproj.CoreCompileInputs.cache
 D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.AssemblyInfoInputs.cache
 D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.AssemblyInfo.cs
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\bin\Debug\netcoreapp3.1\EcoShop.Common.dll
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\bin\Debug\netcoreapp3.1\EcoShop.Common.pdb
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.csproj.CopyComplete
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.pdb
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.csproj.CoreCompileInputs.cache
 D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.dll
 D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.pdb

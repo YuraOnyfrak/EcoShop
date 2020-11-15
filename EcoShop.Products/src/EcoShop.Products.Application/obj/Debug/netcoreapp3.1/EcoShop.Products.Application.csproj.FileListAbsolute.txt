@@ -1,0 +1,14 @@
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\bin\Debug\netcoreapp3.1\EcoShop.Products.Application.deps.json
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\bin\Debug\netcoreapp3.1\EcoShop.Products.Application.dll
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\obj\Debug\netcoreapp3.1\EcoShop.Products.Application.AssemblyInfoInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\obj\Debug\netcoreapp3.1\EcoShop.Products.Application.AssemblyInfo.cs
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\bin\Debug\netcoreapp3.1\EcoShop.Products.Application.pdb
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\bin\Debug\netcoreapp3.1\EcoShop.Products.Domain.dll
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\bin\Debug\netcoreapp3.1\EcoShop.Products.Domain.pdb
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\obj\Debug\netcoreapp3.1\EcoShop.Products.Application.csprojAssemblyReference.cache
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\obj\Debug\netcoreapp3.1\EcoShop.Products.Application.csproj.CopyComplete
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\obj\Debug\netcoreapp3.1\EcoShop.Products.Application.dll
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\obj\Debug\netcoreapp3.1\EcoShop.Products.Application.pdb
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\obj\Debug\netcoreapp3.1\EcoShop.Products.Application.csproj.CoreCompileInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\bin\Debug\netcoreapp3.1\EcoShop.Common.dll
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Application\bin\Debug\netcoreapp3.1\EcoShop.Common.pdb

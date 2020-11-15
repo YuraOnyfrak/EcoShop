@@ -1,7 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using EcoShop.ApiGateway.Services.Entrepreneur;
+using EcoShop.ApiGateway.Services.Marketplace;
+using EcoShop.ApiGateway.Services.Product;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -12,6 +11,7 @@ using TestProject.Common.Mvc;
 using TestProject.Common.RestEase;
 using TestProject.Common.Swagger;
 using TestProject.Services;
+using EcoShop.Common.Jaeger;
 
 namespace TestProject
 {
@@ -34,7 +34,12 @@ namespace TestProject
 
             services.RegisterServiceForwarder<IFirstService>("second-service");
             services.RegisterServiceForwarder<IIdentityService>("identity-service");
-            
+            services.RegisterServiceForwarder<IEntrepreneurService>("entrepreneur-service");
+            services.RegisterServiceForwarder<IMarketPlaceService>("marketplace-service");            
+            services.RegisterServiceForwarder<IProductService>("product-service");
+
+            services.AddJaeger(Configuration);
+            services.AddOpenTracing();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,0 +1,9 @@
+D:\IT\Projects\TestProject\EcoShop.Orders\src\EcoShop.Orders.Infrastructure\bin\Debug\netcoreapp3.1\EcoShop.Orders.Infrastructure.deps.json
+D:\IT\Projects\TestProject\EcoShop.Orders\src\EcoShop.Orders.Infrastructure\bin\Debug\netcoreapp3.1\EcoShop.Orders.Infrastructure.dll
+D:\IT\Projects\TestProject\EcoShop.Orders\src\EcoShop.Orders.Infrastructure\bin\Debug\netcoreapp3.1\EcoShop.Orders.Infrastructure.pdb
+D:\IT\Projects\TestProject\EcoShop.Orders\src\EcoShop.Orders.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Orders.Infrastructure.csprojAssemblyReference.cache
+D:\IT\Projects\TestProject\EcoShop.Orders\src\EcoShop.Orders.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Orders.Infrastructure.csproj.CoreCompileInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Orders\src\EcoShop.Orders.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Orders.Infrastructure.AssemblyInfoInputs.cache
+D:\IT\Projects\TestProject\EcoShop.Orders\src\EcoShop.Orders.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Orders.Infrastructure.AssemblyInfo.cs
+D:\IT\Projects\TestProject\EcoShop.Orders\src\EcoShop.Orders.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Orders.Infrastructure.dll
+D:\IT\Projects\TestProject\EcoShop.Orders\src\EcoShop.Orders.Infrastructure\obj\Debug\netcoreapp3.1\EcoShop.Orders.Infrastructure.pdb
