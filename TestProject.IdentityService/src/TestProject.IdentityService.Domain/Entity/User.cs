@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TestProject.IdentityService.Domain.Entity
 {
-    public class User : IdentityUser<int>
+    public class User : IdentityUser<Guid>
     {
     }
 }

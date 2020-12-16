@@ -1,5 +1,7 @@
 ﻿using EcoShop.ApiGateway.Models.Product;
 using EcoShop.ApiGateway.Services.Product;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -8,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace EcoShop.ApiGateway.Controllers
 {
+    [ApiController]
+    [Route("product")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class ProductController : Controller
     {
         private readonly IProductService _product;

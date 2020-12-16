@@ -15,4 +15,8 @@
     <ProjectReference Include="..\EcoShop.Products.Domain\EcoShop.Products.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Options\" />
+  </ItemGroup>
+
 </Project>

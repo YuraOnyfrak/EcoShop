@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\TestProject.Common\EcoShop.Common.csproj" />
     <ProjectReference Include="..\EcoShop.Marketplace.Application\EcoShop.Marketplace.Application.csproj" />
+    <ProjectReference Include="..\EcoShop.Marketplace.Infrastructure\EcoShop.Marketplace.Infrastructure.csproj" />
   </ItemGroup>
 
 

@@ -1,8 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Consul;
+using EcoShop.Common.Dispatchers;
 using DShop.Common.Fabio;
 using EcoShop.Common.Jaeger;
 using EcoShop.Common.RabbitMq;
@@ -10,15 +7,19 @@ using EcoShop.Products.Application;
 using EcoShop.Products.Infastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Project.Common.Handlers;
 using TestProject.Common.Consul;
 using TestProject.Common.Mvc;
 using TestProject.Common.Swagger;
+using EcoShop.Products.Application.Messages.Commands;
+using EcoShop.Products.Application.Handler.Commands;
+using EcoShop.Products.Domain.Repositorty;
+using EcoShop.Products.Domain.Entity;
+using EcoShop.Products.Infastructure.Repository;
+using EcoShop.Products.Infastructure.Persistance;
 
 namespace EcoShop.Products.Api
 {
@@ -45,6 +46,11 @@ namespace EcoShop.Products.Api
             services.AddJaeger(Configuration);
             services.AddOpenTracing();
             services.AddRabbitMq(Configuration);
+            services.AddDispatchers();
+            services.AddTransient<ICommandHandler<CreateProductCommand>, CreateProductCommandHandler>();
+          
+            services.AddScoped<IEventStore, EventStore>();
+            services.AddScoped<IAggregateRootRepository<Product>, AggregateRootRepository<Product>>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +65,7 @@ namespace EcoShop.Products.Api
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseSwaggerDocs();
 
             if (env.IsDevelopment())
                 app.Use(async (context, next) =>

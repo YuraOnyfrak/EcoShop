@@ -27,7 +27,14 @@ namespace EcoShop.Entrepreneur.Application.Handler.Queries
                .Select(s => new SupplierDto
                {
                    Id = s.Id,
-                   Name = s.Name
+                   Name = s.Name,
+                   Description = s.Description,
+                   ActualAddress = s.ActualAddress,
+                   Code = s.Code,
+                   Email = s.Email,
+                   LegalAddress = s.LegalAddress,
+                   SuppliersTrademark = s.SuppliersTrademark,
+                   WebsiteUrl = s.WebsiteUrl                   
                }).ToListAsync();
         }
     }

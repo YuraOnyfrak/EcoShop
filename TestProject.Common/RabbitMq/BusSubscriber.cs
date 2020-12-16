@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using EcoShop.Common.Common;
+using EcoShop.Common.Messages;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Polly;
-using Project.Common.Common;
 using Project.Common.Handlers;
 using Project.Common.Messages;
 using RawRabbit;
@@ -39,9 +40,22 @@ namespace EcoShop.Common.RabbitMq
             return this;
         }
 
+        public IBusSubscriber SubscribeEvent<TEvent>() where TEvent : IEvent
+        {
+            _busClient.SubscribeAsync<TEvent, CorrelationContext>(async (@event, correlationContext) =>
+            {
+                var eventHandler = _serviceProvider.GetService<IEventHandler<TEvent>>();
+
+                return await TryHandleAsync(@event, correlationContext,
+                    () => eventHandler.HandleAsync(@event, correlationContext));
+            });
+
+            return this;
+        }
+
         private async Task<Acknowledgement> TryHandleAsync<TMessage>(TMessage message,
           CorrelationContext correlationContext,
-          Func<Task> handle, Func<TMessage, DShopException, IRejectedEvent> onError = null)
+          Func<Task> handle, Func<TMessage, Exception, IRejectedEvent> onError = null)
         {
             int _retries = 0;
             double _retryInterval = 0;

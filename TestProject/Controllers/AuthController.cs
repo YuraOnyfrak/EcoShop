@@ -18,21 +18,26 @@ namespace TestProject.Controllers
         }
 
         [HttpPost("signup")]
-        public async Task<ActionResult<object>> SignUp([FromBody] SignUpModel model)
+        public async Task<ActionResult> SignUpAsync([FromBody] SignUpModel model)
         {
-            return await _identityService.SignUp(model);
+            var res =  await _identityService.SignUp(model);
+            var c = HttpContext.User.Claims;
+            return Ok();
         }
 
         [HttpPost("signin")]
-        public async Task<ActionResult<object>> SignIn([FromBody] SignInModel model)
+        public async Task<ActionResult<string>> SignInAsync([FromBody] SignInModel model)
         {
-            return await _identityService.SignIn(model);
+            var result = await _identityService.SignIn(model);
+            return result;
         }
 
         [HttpGet("token")]
-        public async Task<ActionResult<object>> GenerateToken()
+        public async Task<ActionResult<object>> GenerateTokenAsync()
         {
-            return await _identityService.GenerateToken();
+            var c = HttpContext.User.Claims;
+            var res =  await _identityService.GenerateToken();
+            return res;
         }
     }
 }

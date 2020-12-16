@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Project.Common.Common
+namespace EcoShop.Common.Common
 {
     public class CorrelationContext : ICorrelationContext
     {

@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_1"
     ],
-    "languageVersion": "",
+    "languageVersion": "8.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -25,6 +25,7 @@
       "EcoShop.Marketplace.Api/1.0.0": {
         "dependencies": {
           "EcoShop.Marketplace.Application": "1.0.0",
+          "EcoShop.Marketplace.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.8",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.4",
@@ -359,6 +360,22 @@
           "lib/netstandard2.0/Consul.dll": {}
         }
       },
+      "Elasticsearch.Net/7.10.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Buffers": "4.5.1",
+          "System.Diagnostics.DiagnosticSource": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Elasticsearch.Net.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.10.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Elasticsearch.Net.dll": {}
+        }
+      },
       "Jaeger/0.4.1": {
         "dependencies": {
           "Jaeger.Core": "0.4.1",
@@ -514,7 +531,7 @@
       "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
         "dependencies": {
           "MediatR": "9.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9"
         },
         "runtime": {
           "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
@@ -576,7 +593,7 @@
       "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "2.2.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8"
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
         }
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -609,7 +626,7 @@
       },
       "Microsoft.AspNetCore.Http.Features/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.8"
+          "Microsoft.Extensions.Primitives": "5.0.0"
         }
       },
       "Microsoft.AspNetCore.JsonPatch/3.1.8": {
@@ -648,7 +665,7 @@
           "Microsoft.Extensions.DependencyModel": "2.1.0",
           "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.8",
-          "System.Diagnostics.DiagnosticSource": "4.5.0",
+          "System.Diagnostics.DiagnosticSource": "4.5.1",
           "System.Threading.Tasks.Extensions": "4.5.3"
         }
       },
@@ -692,7 +709,7 @@
       },
       "Microsoft.AspNetCore.ResponseCaching.Abstractions/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.8"
+          "Microsoft.Extensions.Primitives": "5.0.0"
         }
       },
       "Microsoft.AspNetCore.Routing/2.2.0": {
@@ -996,7 +1013,7 @@
       },
       "Microsoft.Extensions.Caching.Abstractions/3.1.8": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.8"
+          "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {
@@ -1026,7 +1043,7 @@
       },
       "Microsoft.Extensions.Configuration/3.1.8": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8"
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
@@ -1038,18 +1055,18 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/3.1.8": {
+      "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.8"
+          "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42004"
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
           }
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration.Binder/3.1.8": {
@@ -1073,7 +1090,7 @@
       },
       "Microsoft.Extensions.DependencyInjection/3.1.8": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {
@@ -1085,11 +1102,11 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.8": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42004"
+            "assemblyVersion": "3.1.9.0",
+            "fileVersion": "3.100.920.47302"
           }
         },
         "compile": {
@@ -1116,20 +1133,20 @@
       },
       "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.8"
+          "Microsoft.Extensions.Primitives": "5.0.0"
         }
       },
       "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
           "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.8"
         }
       },
       "Microsoft.Extensions.Http/3.1.8": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
           "Microsoft.Extensions.Logging": "3.1.8",
           "Microsoft.Extensions.Options": "3.1.8"
         },
@@ -1179,7 +1196,7 @@
       },
       "Microsoft.Extensions.Logging.Console/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "Microsoft.Extensions.Logging": "3.1.8",
           "Microsoft.Extensions.Logging.Configuration": "2.2.0"
         }
@@ -1192,8 +1209,8 @@
       "Microsoft.Extensions.ObjectPool/2.2.0": {},
       "Microsoft.Extensions.Options/3.1.8": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Primitives": "3.1.8"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
+          "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
@@ -1207,21 +1224,21 @@
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "Microsoft.Extensions.Configuration.Binder": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
           "Microsoft.Extensions.Options": "3.1.8"
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.8": {
+      "Microsoft.Extensions.Primitives/5.0.0": {
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42004"
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
           }
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
       "Microsoft.IdentityModel.JsonWebTokens/5.5.0": {
@@ -1299,7 +1316,7 @@
       },
       "Microsoft.Net.Http.Headers/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.8",
+          "Microsoft.Extensions.Primitives": "5.0.0",
           "System.Buffers": "4.5.1"
         }
       },
@@ -1457,6 +1474,20 @@
           "Microsoft.NETCore.Platforms": "3.1.0"
         }
       },
+      "NEST/7.10.0": {
+        "dependencies": {
+          "Elasticsearch.Net": "7.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.10.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Nest.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1557,7 +1588,7 @@
       },
       "OpenTracing.Contrib.NetCore/0.6.2": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
           "Microsoft.Extensions.Hosting.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging": "3.1.8",
           "Microsoft.Extensions.Options": "3.1.8",
@@ -1860,7 +1891,7 @@
       },
       "Serilog.Extensions.Hosting/3.1.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
           "Microsoft.Extensions.Hosting.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.8",
           "Serilog": "2.10.0",
@@ -2236,7 +2267,7 @@
           "System.Runtime": "4.3.1"
         }
       },
-      "System.Diagnostics.DiagnosticSource/4.5.0": {},
+      "System.Diagnostics.DiagnosticSource/4.5.1": {},
       "System.Diagnostics.PerformanceCounter/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -2480,7 +2511,7 @@
           "Microsoft.NETCore.Platforms": "3.1.0",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
-          "System.Diagnostics.DiagnosticSource": "4.5.0",
+          "System.Diagnostics.DiagnosticSource": "4.5.1",
           "System.Diagnostics.Tracing": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.Globalization.Extensions": "4.3.0",
@@ -3024,6 +3055,7 @@
       },
       "EcoShop.Marketplace.Application/1.0.0": {
         "dependencies": {
+          "EcoShop.Marketplace.Domain": "1.0.0",
           "MediatR": "9.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Vuiko.CommonLibrary": "1.0.2"
@@ -3033,6 +3065,28 @@
         },
         "compile": {
           "EcoShop.Marketplace.Application.dll": {}
+        }
+      },
+      "EcoShop.Marketplace.Domain/1.0.0": {
+        "runtime": {
+          "EcoShop.Marketplace.Domain.dll": {}
+        },
+        "compile": {
+          "EcoShop.Marketplace.Domain.dll": {}
+        }
+      },
+      "EcoShop.Marketplace.Infrastructure/1.0.0": {
+        "dependencies": {
+          "EcoShop.Marketplace.Application": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
+          "NEST": "7.10.0"
+        },
+        "runtime": {
+          "EcoShop.Marketplace.Infrastructure.dll": {}
+        },
+        "compile": {
+          "EcoShop.Marketplace.Infrastructure.dll": {}
         }
       },
       "Vuiko.CommonLibrary/1.0.2": {
@@ -3046,11 +3100,12 @@
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.8",
           "Microsoft.Extensions.Caching.StackExchangeRedis": "3.1.8",
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
           "Microsoft.Extensions.Http": "3.1.8",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.8",
           "Microsoft.Extensions.Options": "3.1.8",
+          "NEST": "7.10.0",
           "Newtonsoft.Json": "12.0.3",
           "OpenTracing": "0.12.1",
           "Polly": "7.2.1",
@@ -4712,6 +4767,13 @@
       "path": "consul/1.6.1.1",
       "hashPath": "consul.1.6.1.1.nupkg.sha512"
     },
+    "Elasticsearch.Net/7.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IlgarWLMgscCornYiTbP4cbToKCZ8h54AhkXO7wzfyuf4+1EkLfM/OEnmcFMU6jH1T6DK5qkkF8UCE1ACbj4DQ==",
+      "path": "elasticsearch.net/7.10.0",
+      "hashPath": "elasticsearch.net.7.10.0.nupkg.sha512"
+    },
     "Jaeger/0.4.1": {
       "type": "package",
       "serviceable": true,
@@ -5006,12 +5068,12 @@
       "path": "microsoft.extensions.configuration/3.1.8",
       "hashPath": "microsoft.extensions.configuration.3.1.8.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Abstractions/3.1.8": {
+    "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0qbNyxGpuNP/fuQ3FLHesm1Vn/83qYcAgVsi1UQCQN1peY4YH1uiizOh4xbYkQyxiVMD/c/zhiYYv94G0DXSSA==",
-      "path": "microsoft.extensions.configuration.abstractions/3.1.8",
-      "hashPath": "microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512"
+      "sha512": "sha512-ETjSBHMp3OAZ4HxGQYpwyGsD8Sw5FegQXphi0rpoGMT74S4+I2mm7XJEswwn59XAaKOzC15oDSOWEE8SzDCd6Q==",
+      "path": "microsoft.extensions.configuration.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Binder/3.1.8": {
       "type": "package",
@@ -5034,12 +5096,12 @@
       "path": "microsoft.extensions.dependencyinjection/3.1.8",
       "hashPath": "microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.8": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YP0kEBkSLTVl3znqZEux+xyJpz5iVNwFZf0OPS7nupdKbojSlO7Fa+JuQjLYpWfpAshaMcznu27tjWzfXRJnOA==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.8",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512"
+      "sha512": "sha512-8PkcaPwiTPOhqshoY4+rQUbz86X6YpLDLUqXOezh7L2A3pgpBmeBBByYIffofBlvQxDdQ0zB2DkWjbZWyCxRWg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.9",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyModel/2.1.0": {
       "type": "package",
@@ -5125,12 +5187,12 @@
       "path": "microsoft.extensions.options.configurationextensions/2.2.0",
       "hashPath": "microsoft.extensions.options.configurationextensions.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/3.1.8": {
+    "Microsoft.Extensions.Primitives/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XcIoXQhT0kwnEhOKv/LmpWR6yF6QWmBTy9Fcsz4aHuCOgTJ7Zd23ELtUA4BfwlYoFlSedavS+vURz9tNekd44g==",
-      "path": "microsoft.extensions.primitives/3.1.8",
-      "hashPath": "microsoft.extensions.primitives.3.1.8.nupkg.sha512"
+      "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
     },
     "Microsoft.IdentityModel.JsonWebTokens/5.5.0": {
       "type": "package",
@@ -5278,6 +5340,13 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "NEST/7.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8LnV0k2Y+iR6+3QSLinhWYZRPPuX7fAsQ0E4ZH2V6DULOJSwJRhOWNO98md5dNztrXwS8KZW4IU1rlrgDOvB+Q==",
+      "path": "nest/7.10.0",
+      "hashPath": "nest.7.10.0.nupkg.sha512"
     },
     "NETStandard.Library/1.6.1": {
       "type": "package",
@@ -5734,12 +5803,12 @@
       "path": "system.diagnostics.debug/4.3.0",
       "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
     },
-    "System.Diagnostics.DiagnosticSource/4.5.0": {
+    "System.Diagnostics.DiagnosticSource/4.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eIHRELiYDQvsMToML81QFkXEEYXUSUT2F28t1SGrevWqP+epFdw80SyAXIKTXOHrIEXReFOEnEr7XlGiC2GgOg==",
-      "path": "system.diagnostics.diagnosticsource/4.5.0",
-      "hashPath": "system.diagnostics.diagnosticsource.4.5.0.nupkg.sha512"
+      "sha512": "sha512-zCno/m44ymWhgLFh7tELDG9587q0l/EynPM0m4KgLaWQbz/TEKvNRX2YT5ip2qXW/uayifQ2ZqbnErsKJ4lYrQ==",
+      "path": "system.diagnostics.diagnosticsource/4.5.1",
+      "hashPath": "system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512"
     },
     "System.Diagnostics.PerformanceCounter/4.7.0": {
       "type": "package",
@@ -6260,6 +6329,16 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "EcoShop.Marketplace.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EcoShop.Marketplace.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EcoShop.Marketplace.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

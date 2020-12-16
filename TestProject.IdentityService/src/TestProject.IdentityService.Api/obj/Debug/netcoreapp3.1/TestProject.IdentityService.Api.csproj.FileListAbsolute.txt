@@ -215,3 +215,5 @@ D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityS
 D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Api\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
 D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Api\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
 D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Api\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+D:\IT\Projects\TestProject\TestProject.IdentityService\src\TestProject.IdentityService.Api\bin\Debug\netcoreapp3.1\Nest.dll

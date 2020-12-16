@@ -203,3 +203,5 @@ D:\IT\Projects\TestProject\TestProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\
 D:\IT\Projects\TestProject\TestProject\obj\Debug\netcoreapp3.1\EcoShop.ApiGateway.csproj.CoreCompileInputs.cache
 D:\IT\Projects\TestProject\TestProject\obj\Debug\netcoreapp3.1\EcoShop.ApiGateway.MvcApplicationPartsAssemblyInfo.cs
 D:\IT\Projects\TestProject\TestProject\obj\Debug\netcoreapp3.1\EcoShop.ApiGateway.MvcApplicationPartsAssemblyInfo.cache
+D:\IT\Projects\TestProject\TestProject\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+D:\IT\Projects\TestProject\TestProject\bin\Debug\netcoreapp3.1\Nest.dll

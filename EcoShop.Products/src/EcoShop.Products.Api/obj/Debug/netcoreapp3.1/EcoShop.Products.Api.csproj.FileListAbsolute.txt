@@ -209,3 +209,6 @@ D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Api\bin\Debug\n
 D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Api\obj\Debug\netcoreapp3.1\EcoShop.Products.Api.csproj.CoreCompileInputs.cache
 D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Api\obj\Debug\netcoreapp3.1\EcoShop.Products.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Api\obj\Debug\netcoreapp3.1\EcoShop.Products.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Api\bin\Debug\netcoreapp3.1\EcoShop.Products.Api.xml
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Api\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Api\bin\Debug\netcoreapp3.1\Nest.dll

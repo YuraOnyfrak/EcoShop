@@ -12,11 +12,11 @@ namespace TestProject.Services
     {
         [AllowAnyStatusCode]
         [Post("/Auth/signin")]
-        Task<object> SignIn([Body] SignInModel model);
+        Task<string> SignIn([Body] SignInModel model);
 
         [AllowAnyStatusCode]
         [Post("/Auth/signup")]
-        Task<object> SignUp([Body] SignUpModel model);
+        Task<ActionResult> SignUp([Body] SignUpModel model);
 
         [AllowAnyStatusCode]
         [Get("/Token/get-token")]

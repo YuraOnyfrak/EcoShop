@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EcoShop.Common.Messages;
+using System;
 using System.Collections.Generic;
 using System.Text;
 

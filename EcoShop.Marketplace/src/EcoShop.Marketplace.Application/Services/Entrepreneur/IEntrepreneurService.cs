@@ -10,7 +10,7 @@ namespace EcoShop.Marketplace.Application.Services.Entrepreneur
     public interface IEntrepreneurService
     {
         [AllowAnyStatusCode]
-        [Get("/Supplier/get-suppliers")]
-        Task<IEnumerable<EntrepreneurDto>> GetSuppliersAsync();
+        [Get("/Supplier/get-supplier/{id}")]
+        Task<EntrepreneurDto> GetSupplierByIdAsync([Path] Guid id);
     }
 }

@@ -1,9 +1,12 @@
-﻿using EcoShop.Common.RabbitMq;
+﻿using EcoShop.Common.Common;
+using EcoShop.Common.RabbitMq;
 using EcoShop.Products.Application.Common.Interfaces;
 using EcoShop.Products.Application.Messages.Commands;
+using EcoShop.Products.Domain.Entity;
+using EcoShop.Products.Domain.Repositorty;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Project.Common.Common;
+using Project.Common.Handlers;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,35 +15,30 @@ using System.Threading.Tasks;
 
 namespace EcoShop.Products.Application.Handler.Commands
 {
-    public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, Unit>
+    public class CreateProductCommandHandler : ICommandHandler<CreateProductCommand>
     {
+        private readonly IAggregateRootRepository<Product> _productRepository; 
 
-        private readonly IApplicationDbContext _context;
-        private readonly IBusPublisher _busPublisher;
-
-        public CreateProductCommandHandler(IApplicationDbContext context, IBusPublisher busPublisher)
+        public CreateProductCommandHandler(IAggregateRootRepository<Product> productRepository)
         {
-            _context = context;
-            _busPublisher = busPublisher;
+            _productRepository = productRepository;
         }
 
-        public async Task<Unit> Handle(CreateProductCommand request, CancellationToken cancellationToken)
+        public async Task HandleAsync(CreateProductCommand command, ICorrelationContext context)
         {
-            //var supplierExistWithTheSameName =
-            //    await _context.Products.AnyAsync(s => s.Name == request.Name, cancellationToken);
-
-            //if (supplierExistWithTheSameName)
-            //    throw new Exception();//TODO
-
-            //_context.Products.Add(new Domain.Entity.Product
-            //{
-            //    Name = request.Name
-            //});
-            //await _context.SaveChangesAsync(cancellationToken);
-
-            await _busPublisher.SendAsync(new ProductCreatedCommand() { Id = 99 }, CorrelationContext.Empty);
-
-            return Unit.Value;
+            var product = new Product
+                (
+                    Guid.NewGuid(),
+                    command.Name,
+                    command.SupplierId,
+                    command.Count,
+                    command.PricePerUnit,
+                    command.SupplierId,
+                    command.CreatedDate,
+                    command.ExpirationDate,
+                    command.Description
+                );
+            await _productRepository.SaveAsync(product, -1);
         }
     }
 }

@@ -6,7 +6,7 @@ namespace EcoShop.Entrepreneur.Domain.Entity
 {
     public class Supplier
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public string SuppliersTrademark { get; set; }
         public string LegalAddress { get; set; }

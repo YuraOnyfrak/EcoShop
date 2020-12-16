@@ -11,7 +11,7 @@ using TestProject.IdentityService.Domain.Entity;
 
 namespace TestProject.IdentityService.Infastructure.Persistance
 {
-    public class ApplicationDbContext : IdentityDbContext<User, UserRole, int>, IApplicationDbContext
+    public class ApplicationDbContext : IdentityDbContext<User, UserRole, Guid>, IApplicationDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {

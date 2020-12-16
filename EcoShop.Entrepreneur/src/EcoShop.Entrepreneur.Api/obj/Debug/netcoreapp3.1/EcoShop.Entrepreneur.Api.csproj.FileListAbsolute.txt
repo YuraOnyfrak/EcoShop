@@ -207,3 +207,5 @@ D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Api\bin
 D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Api\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
 D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Api\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
 D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Api\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+D:\IT\Projects\TestProject\EcoShop.Entrepreneur\src\EcoShop.Entrepreneur.Api\bin\Debug\netcoreapp3.1\Nest.dll

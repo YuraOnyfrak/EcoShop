@@ -44,8 +44,8 @@ namespace EcoShop.Entrepreneur.Infrastructure.Migrations
                     b.Property<string>("NameResponsibleOrganisation")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("SupplierId")
-                        .HasColumnType("int");
+                    b.Property<Guid?>("SupplierId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
@@ -76,8 +76,8 @@ namespace EcoShop.Entrepreneur.Infrastructure.Migrations
                     b.Property<string>("Position")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("SupplierId")
-                        .HasColumnType("int");
+                    b.Property<Guid?>("SupplierId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
@@ -99,8 +99,8 @@ namespace EcoShop.Entrepreneur.Infrastructure.Migrations
                     b.Property<int>("IdSupplier")
                         .HasColumnType("int");
 
-                    b.Property<int?>("SupplierId")
-                        .HasColumnType("int");
+                    b.Property<Guid?>("SupplierId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
@@ -111,10 +111,9 @@ namespace EcoShop.Entrepreneur.Infrastructure.Migrations
 
             modelBuilder.Entity("EcoShop.Entrepreneur.Domain.Entity.Supplier", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ActualAddress")
                         .HasColumnType("nvarchar(max)");

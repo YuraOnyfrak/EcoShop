@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EcoShop.Common.Dispatchers;
 using EcoShop.Products.Application.Dto;
 using EcoShop.Products.Application.Messages.Commands;
 using EcoShop.Products.Application.Messages.Queries;
@@ -10,11 +11,19 @@ using TestProject.Common.Api;
 
 namespace EcoShop.Products.Api.Controllers
 {
-    public class ProductController : BaseApiController
+    [ApiController]
+    [Route("[controller]")]
+    public class ProductController : ControllerBase
     {
-        public ProductController(global::MediatR.IMediator mediator) : base(mediator)
+        private readonly IDispatcher _dispatcher;
+
+        public ProductController(IDispatcher dispatcher)
         {
+            _dispatcher = dispatcher;
         }
+        //public ProductController(global::MediatR.IMediator mediator) : base(mediator)
+        //{
+        //}
                 
 
         // <summary>
@@ -25,14 +34,8 @@ namespace EcoShop.Products.Api.Controllers
         [HttpPost("create")]
         public async Task<ActionResult> Create([FromBody]CreateProductCommand command)
         {
-            await _mediator.Send(command, HttpContext.RequestAborted);
+            await _dispatcher.SendAsync(command);
             return Ok();
-        }
-
-        [HttpGet("get-products")]
-        public async Task<IEnumerable<ProductDto>> GetProducts()
-        {
-            return await _mediator.Send(new GetProductsQuery(), HttpContext.RequestAborted);
         }
     }
 }

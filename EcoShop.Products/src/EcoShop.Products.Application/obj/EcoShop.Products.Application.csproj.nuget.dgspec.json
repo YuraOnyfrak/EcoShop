@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\onyfr\\.nuget\\packages\\",
         "outputPath": "D:\\IT\\Projects\\TestProject\\EcoShop.Products\\src\\EcoShop.Products.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\onyfr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -89,6 +92,9 @@
         "packagesPath": "C:\\Users\\onyfr\\.nuget\\packages\\",
         "outputPath": "D:\\IT\\Projects\\TestProject\\EcoShop.Products\\src\\EcoShop.Products.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\onyfr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -102,7 +108,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\IT\\Projects\\TestProject\\TestProject.Common\\EcoShop.Common.csproj": {
+                "projectPath": "D:\\IT\\Projects\\TestProject\\TestProject.Common\\EcoShop.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -124,6 +134,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -141,6 +154,9 @@
         "packagesPath": "C:\\Users\\onyfr\\.nuget\\packages\\",
         "outputPath": "D:\\IT\\Projects\\TestProject\\TestProject.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\onyfr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -221,6 +237,10 @@
             "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.10.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

@@ -1,6 +1,5 @@
-﻿using EcoShop.Common.Messages;
-using Project.Common.Common;
-using Project.Common.Messages;
+﻿using EcoShop.Common.Common;
+using EcoShop.Common.Messages;
 using RawRabbit;
 using RawRabbit.Enrichers.MessageContext;
 using System;
@@ -25,6 +24,6 @@ namespace EcoShop.Common.RabbitMq
 
         public async Task PublishAsync<TCommand>(TCommand @event, ICorrelationContext context)
             where TCommand : IEvent
-            => throw new NotImplementedException();
+            => await _busClient.PublishAsync(@event, ctx => ctx.UseMessageContext(context));
     }
 }

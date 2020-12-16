@@ -37,8 +37,9 @@ namespace TestProject.IdentityService.Api.Controllers
         [HttpPost("signin")]
         public async Task<ActionResult> SignIn([FromBody]SignInCommand command)
         {
-            await _mediator.Send(command, HttpContext.RequestAborted);
-            return Ok();
+            var c = HttpContext.User.Claims;
+            var token = await _mediator.Send(command, HttpContext.RequestAborted);
+            return Ok(token);
         }
     }
 }

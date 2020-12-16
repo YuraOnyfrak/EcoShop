@@ -8,10 +8,12 @@ using EcoShop.Common.Cache;
 using EcoShop.Common.Jaeger;
 using EcoShop.Common.RabbitMq;
 using EcoShop.Marketplace.Application;
+using EcoShop.Marketplace.Application.Events.Product;
 using EcoShop.Marketplace.Application.Handler.Commands;
+using EcoShop.Marketplace.Application.Handler.Events;
 using EcoShop.Marketplace.Application.Messages.Commnads;
 using EcoShop.Marketplace.Application.Services.Entrepreneur;
-using EcoShop.Marketplace.Application.Services.Product;
+using EcoShop.Marketplace.Infrastructure.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -41,7 +43,6 @@ namespace EcoShop.Marketplace.Api
         {
             services.AddControllers();
             services.AddCache(Configuration);
-            services.RegisterServiceForwarder<IProductService>("product-service");
             services.RegisterServiceForwarder<IEntrepreneurService>("entrepreneur-service");
 
             //services.AddInfastructure(Configuration);
@@ -54,8 +55,10 @@ namespace EcoShop.Marketplace.Api
             services.AddRabbitMq(Configuration);
             services.AddJaeger(Configuration);
             services.AddOpenTracing();
+            services.AddElasticSearch(Configuration);
 
             services.AddTransient(typeof(ICommandHandler<ProductCreatedCommand>), typeof(ProductCreatedCommandHandler));
+            services.AddTransient(typeof(IEventHandler<ProductCreated>), typeof(ProductCreatedHandler));
 
         }
 
@@ -87,7 +90,8 @@ namespace EcoShop.Marketplace.Api
                 endpoints.MapControllers();
             });
             app.UseRabbitMq()
-                .SubscribeToCommand<ProductCreatedCommand>();
+                .SubscribeToCommand<ProductCreatedCommand>()
+                .SubscribeEvent<ProductCreated>();
 
             var consulServiceId = app.UseConsul();
             applicationLifetime.ApplicationStopped.Register(() =>

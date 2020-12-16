@@ -189,3 +189,9 @@ D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Api\bin\D
 D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Api\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Api.csproj.CoreCompileInputs.cache
 D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Api\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Api\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Api\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Api\bin\Debug\netcoreapp3.1\Nest.dll
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Api\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Domain.dll
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Api\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Infrastructure.dll
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Api\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Infrastructure.pdb
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Api\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Domain.pdb

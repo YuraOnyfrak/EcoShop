@@ -42,7 +42,7 @@ namespace TestProject.IdentityService.Application.Handler.Token
 
         public async Task<string> Handle(TokenGenerator request, CancellationToken cancellationToken)
         {
-            request.Email = "example@gmail.com";
+            request.Email = "test5@ukr.net";
             var user = await _userManager.FindByEmailAsync(request.Email);
 
             if (user is null)

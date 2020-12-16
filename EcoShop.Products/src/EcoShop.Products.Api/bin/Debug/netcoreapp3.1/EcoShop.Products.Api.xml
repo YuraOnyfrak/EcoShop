@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EcoShop.Products.Api</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:EcoShop.Products.Api.Controllers.ProductController.Create(EcoShop.Products.Application.Messages.Commands.CreateProductCommand)" -->
+    </members>
+</doc>

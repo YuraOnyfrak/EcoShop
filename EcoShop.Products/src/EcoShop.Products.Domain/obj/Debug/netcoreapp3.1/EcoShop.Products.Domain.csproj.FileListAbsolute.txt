@@ -7,3 +7,6 @@ D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\obj\Debu
 D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\obj\Debug\netcoreapp3.1\EcoShop.Products.Domain.AssemblyInfo.cs
 D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\obj\Debug\netcoreapp3.1\EcoShop.Products.Domain.dll
 D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\obj\Debug\netcoreapp3.1\EcoShop.Products.Domain.pdb
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\bin\Debug\netcoreapp3.1\EcoShop.Common.dll
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\bin\Debug\netcoreapp3.1\EcoShop.Common.pdb
+D:\IT\Projects\TestProject\EcoShop.Products\src\EcoShop.Products.Domain\obj\Debug\netcoreapp3.1\EcoShop.Products.Domain.csproj.CopyComplete

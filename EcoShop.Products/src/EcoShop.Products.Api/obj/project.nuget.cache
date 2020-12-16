@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "64QOs9yQSRX/JplYlwKqc7qWi76FL0HFoR3+84bHaGb6CMNeQbLcmPbjnRwFrfnkSEUnkXscbDAsFTOeqRZGBA==",
+  "dgSpecHash": "fGsY7O2DeVVLfv+gHBBextxSJ4pxBMY/y4k3UU31+VeuBUikduwo9GqEHFZ4Om15aviIWUn10lTH5PXP7CrCyg==",
   "success": true,
   "projectFilePath": "D:\\IT\\Projects\\TestProject\\EcoShop.Products\\src\\EcoShop.Products.Api\\EcoShop.Products.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\onyfr\\.nuget\\packages\\apachethrift\\0.13.0.1\\apachethrift.0.13.0.1.nupkg.sha512",
     "C:\\Users\\onyfr\\.nuget\\packages\\confluent.kafka\\1.5.1\\confluent.kafka.1.5.1.nupkg.sha512",
     "C:\\Users\\onyfr\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
+    "C:\\Users\\onyfr\\.nuget\\packages\\elasticsearch.net\\7.10.0\\elasticsearch.net.7.10.0.nupkg.sha512",
     "C:\\Users\\onyfr\\.nuget\\packages\\jaeger\\0.4.1\\jaeger.0.4.1.nupkg.sha512",
     "C:\\Users\\onyfr\\.nuget\\packages\\jaeger.communication.thrift\\0.4.1\\jaeger.communication.thrift.0.4.1.nupkg.sha512",
     "C:\\Users\\onyfr\\.nuget\\packages\\jaeger.core\\0.4.1\\jaeger.core.0.4.1.nupkg.sha512",
@@ -99,6 +100,7 @@
     "C:\\Users\\onyfr\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\onyfr\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\onyfr\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\onyfr\\.nuget\\packages\\nest\\7.10.0\\nest.7.10.0.nupkg.sha512",
     "C:\\Users\\onyfr\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\onyfr\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\onyfr\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",

@@ -18,12 +18,47 @@
             <param name="model"></param>
             <returns></returns>
         </member>
+        <member name="M:EcoShop.ApiGateway.Controllers.EntrepreneurController.GetAsync">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EcoShop.ApiGateway.Controllers.EntrepreneurController.GetAsync(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EcoShop.ApiGateway.Controllers.OrderController.CreateAsync(EcoShop.ApiGateway.Models.Order.CreateOrderModel)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
         <member name="M:EcoShop.ApiGateway.Controllers.ProductController.CreateAsync(EcoShop.ApiGateway.Models.Product.CreateProductModel)">
             <summary>
             
             </summary>
             <param name="model"></param>
             <returns></returns>
+        </member>
+        <member name="P:EcoShop.ApiGateway.Models.Entrepreneur.CreateSupplierModel.Code">
+            <summary>
+            Код ЄДРПОУ або ІПН
+            </summary>
+        </member>
+        <member name="P:EcoShop.ApiGateway.Models.Entrepreneur.SupplierModel.Code">
+            <summary>
+            Код ЄДРПОУ або ІПН
+            </summary>
+        </member>
+        <member name="P:EcoShop.ApiGateway.Models.Entrepreneur.UpdateSupplierModel.Code">
+            <summary>
+            Код ЄДРПОУ або ІПН
+            </summary>
         </member>
     </members>
 </doc>

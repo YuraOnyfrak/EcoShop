@@ -1,5 +1,5 @@
-﻿using Project.Common.Common;
-using Project.Common.Messages;
+﻿using EcoShop.Common.Common;
+using EcoShop.Common.Messages;
 using System;
 using System.Collections.Generic;
 using System.Text;

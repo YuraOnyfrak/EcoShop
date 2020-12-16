@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
+using TestProject.IdentityService.Application.Services;
 
 namespace TestProject.IdentityService.Application
 {
@@ -13,7 +14,8 @@ namespace TestProject.IdentityService.Application
         {
             //services.AddAutoMapper(Assembly.GetExecutingAssembly());
             //services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
-            services.AddMediatR(Assembly.GetExecutingAssembly());            
+            services.AddMediatR(Assembly.GetExecutingAssembly());
+            services.AddTransient<ITokenService, TokenService>();
 
             return services;
         }

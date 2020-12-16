@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EcoShop.Orders.Api</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:EcoShop.Orders.Api.Controllers.OrderController.CreateAsync(EcoShop.Orders.Application.Messages.Commands.CreateOrderComamand)" -->
+    </members>
+</doc>

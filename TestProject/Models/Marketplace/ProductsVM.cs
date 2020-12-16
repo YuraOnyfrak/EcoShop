@@ -7,9 +7,8 @@ namespace EcoShop.ApiGateway.Models.Marketplace
 {
     public class ProductsVM
     {
-        public int IdProduct { get; set; }
-        public int IdSupplier { get; set; }
-        public int SupplierName { get; set; }
-        public int ProductName { get; set; }
+        public Guid IdProduct { get; set; }
+        public string ProductName { get; set; }
+        public ManufacturerVM Manufacturer { get; set; }
     }
 }

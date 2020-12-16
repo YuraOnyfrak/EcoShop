@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Project.Common.Types
+namespace EcoShop.Common.Types
 {
     public interface IQuery
     {

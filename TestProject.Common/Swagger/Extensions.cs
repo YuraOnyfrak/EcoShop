@@ -6,6 +6,8 @@ using Microsoft.OpenApi.Models;
 using System.IO;
 using System.Reflection;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 
 namespace TestProject.Common.Swagger
 {
@@ -66,6 +68,18 @@ namespace TestProject.Common.Swagger
             {
                 c.RouteTemplate = "api-docs/{documentName}/swagger.json";
             });
+
+            var env = builder.ApplicationServices.GetService<IWebHostEnvironment>();
+
+            if (env.IsDevelopment())
+                builder.Use(async (context, next) =>
+                {
+                    if (context.Request.Path.Value == "/")
+                    {
+                        context.Response.Redirect("/swagger", true);
+                    }
+                    else await next();
+                });
 
             return builder.UseSwaggerUI(c =>
             {

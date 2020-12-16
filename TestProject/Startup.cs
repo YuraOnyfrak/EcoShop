@@ -12,6 +12,7 @@ using TestProject.Common.RestEase;
 using TestProject.Common.Swagger;
 using TestProject.Services;
 using EcoShop.Common.Jaeger;
+using EcoShop.ApiGateway.Services.Order;
 
 namespace TestProject
 {
@@ -37,6 +38,7 @@ namespace TestProject
             services.RegisterServiceForwarder<IEntrepreneurService>("entrepreneur-service");
             services.RegisterServiceForwarder<IMarketPlaceService>("marketplace-service");            
             services.RegisterServiceForwarder<IProductService>("product-service");
+            services.RegisterServiceForwarder<IOrderService>("order-service");
 
             services.AddJaeger(Configuration);
             services.AddOpenTracing();

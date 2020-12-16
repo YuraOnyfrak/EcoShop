@@ -67,6 +67,19 @@
           }
         }
       },
+      "Elasticsearch.Net/7.10.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Buffers": "4.5.1",
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Elasticsearch.Net.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.10.0.0"
+          }
+        }
+      },
       "Jaeger/0.4.1": {
         "dependencies": {
           "Jaeger.Core": "0.4.1",
@@ -948,6 +961,17 @@
       "Microsoft.Win32.SystemEvents/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0"
+        }
+      },
+      "NEST/7.10.0": {
+        "dependencies": {
+          "Elasticsearch.Net": "7.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.10.0.0"
+          }
         }
       },
       "NETStandard.Library/1.6.1": {
@@ -2491,6 +2515,7 @@
           "Microsoft.Extensions.Http": "3.1.8",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.9",
           "Microsoft.Extensions.Options": "3.1.9",
+          "NEST": "7.10.0",
           "Newtonsoft.Json": "12.0.3",
           "OpenTracing": "0.12.1",
           "Polly": "7.2.1",
@@ -2540,6 +2565,13 @@
       "sha512": "sha512-AJkBiix1bT3cSZRO6OD0Ee31Co1qgVkmVBFwpxym9WdxH5K6LfmAZ8Vb8nGvo9EKC+ir2sv5fKIrY75aENcMDA==",
       "path": "consul/1.6.1.1",
       "hashPath": "consul.1.6.1.1.nupkg.sha512"
+    },
+    "Elasticsearch.Net/7.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IlgarWLMgscCornYiTbP4cbToKCZ8h54AhkXO7wzfyuf4+1EkLfM/OEnmcFMU6jH1T6DK5qkkF8UCE1ACbj4DQ==",
+      "path": "elasticsearch.net/7.10.0",
+      "hashPath": "elasticsearch.net.7.10.0.nupkg.sha512"
     },
     "Jaeger/0.4.1": {
       "type": "package",
@@ -3142,6 +3174,13 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "NEST/7.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8LnV0k2Y+iR6+3QSLinhWYZRPPuX7fAsQ0E4ZH2V6DULOJSwJRhOWNO98md5dNztrXwS8KZW4IU1rlrgDOvB+Q==",
+      "path": "nest/7.10.0",
+      "hashPath": "nest.7.10.0.nupkg.sha512"
     },
     "NETStandard.Library/1.6.1": {
       "type": "package",

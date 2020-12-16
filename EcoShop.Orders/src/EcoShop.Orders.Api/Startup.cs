@@ -1,14 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Consul;
+using DShop.Common.Fabio;
+using EcoShop.Orders.Application;
+using EcoShop.Orders.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using TestProject.Common.Consul;
+using TestProject.Common.Mvc;
+using TestProject.Common.Swagger;
 
 namespace EcoShop.Orders.Api
 {
@@ -25,10 +26,18 @@ namespace EcoShop.Orders.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddInfastructure(Configuration);
+            services.AddApplication();
+            services.AddSwaggerDocs();
+            services.AddSingleton<IServiceId, ServiceId>();
+
+            services.AddConsul();
+            services.AddFabio();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,
+             IHostApplicationLifetime applicationLifetime, IConsulClient client)
         {
             if (env.IsDevelopment())
             {
@@ -39,9 +48,17 @@ namespace EcoShop.Orders.Api
 
             app.UseAuthorization();
 
+            app.UseSwaggerDocs();
+                       
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            var consulServiceId = app.UseConsul();
+            applicationLifetime.ApplicationStopped.Register(() =>
+            {
+                client.Agent.ServiceDeregister(consulServiceId);
             });
         }
     }

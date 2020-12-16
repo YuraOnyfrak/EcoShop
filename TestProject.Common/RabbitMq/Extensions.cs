@@ -1,9 +1,9 @@
-﻿using EcoShop.Common.Jaeger;
+﻿using EcoShop.Common.Common;
+using EcoShop.Common.Jaeger;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using OpenTracing;
-using Project.Common.Common;
 using Project.Common.Handlers;
 using RawRabbit;
 using RawRabbit.Common;

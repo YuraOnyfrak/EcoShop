@@ -24,6 +24,7 @@ namespace TestProject.IdentityService.Api.Controllers
         [HttpGet("get-token")]
         public async Task<ActionResult> GenereteToken()
         {
+            var c = HttpContext.User.Claims;
             string token = await _mediator.Send(new TokenGenerator(), HttpContext.RequestAborted);
             return new JsonResult(token) { };// Ok(token);
         }

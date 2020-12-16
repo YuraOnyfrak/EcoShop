@@ -10,3 +10,5 @@ D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Applicati
 D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.csproj.CoreCompileInputs.cache
 D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.dll
 D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\obj\Debug\netcoreapp3.1\EcoShop.Marketplace.Application.pdb
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Domain.dll
+D:\IT\Projects\TestProject\EcoShop.Marketplace\src\EcoShop.Marketplace.Application\bin\Debug\netcoreapp3.1\EcoShop.Marketplace.Domain.pdb

@@ -43,7 +43,8 @@ namespace TestProject.Controllers
         [HttpGet("test")]
         public async Task<ActionResult<object>> Test()
         {
-           return await _firstService.TestInvoke();
+            var c = HttpContext.User.Claims;
+            return await _firstService.TestInvoke();
         }
 
         public IActionResult Privacy()

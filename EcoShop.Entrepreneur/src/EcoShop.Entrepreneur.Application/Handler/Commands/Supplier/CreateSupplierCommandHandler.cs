@@ -31,7 +31,13 @@ namespace EcoShop.Entrepreneur.Application.Handler.Commands.Supplier
 
             _context.Suppliers.Add(new Domain.Entity.Supplier
             {
-                Name = request.Name
+                Name = request.Name,
+                ActualAddress = request.ActualAddress,
+                Code = request.Code,
+                Description = request.Description,
+                Email = request.Email,
+                LegalAddress = request.LegalAddress,
+                WebsiteUrl = request.WebsiteUrl
             });
             await _context.SaveChangesAsync(cancellationToken);
 

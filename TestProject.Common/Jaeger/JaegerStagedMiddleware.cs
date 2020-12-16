@@ -1,7 +1,8 @@
-﻿using Jaeger;
+﻿using EcoShop.Common.Common;
+using EcoShop.Common.Messages;
+using Jaeger;
 using OpenTracing;
 using OpenTracing.Tag;
-using Project.Common.Common;
 using Project.Common.Messages;
 using RawRabbit.Pipe;
 using RawRabbit.Pipe.Middleware;

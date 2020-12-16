@@ -1,4 +1,5 @@
 ﻿using EcoShop.ApiGateway.Models.Entrepreneur;
+using Microsoft.AspNetCore.Mvc;
 using RestEase;
 using System;
 using System.Collections.Generic;
@@ -16,5 +17,13 @@ namespace EcoShop.ApiGateway.Services.Entrepreneur
         [AllowAnyStatusCode]
         [Put("/Supplier/update")]
         Task<object> UpdateAsync([Body] UpdateSupplierModel model);
+
+        [AllowAnyStatusCode]
+        [Get("/Supplier/get-supplier/{id}")]
+        Task<SupplierModel> GetAsync([Path] Guid id);
+
+        [AllowAnyStatusCode]
+        [Get("/Supplier/get-suppliers")]
+        Task<IEnumerable<SupplierModel>> GetAsync();
     }
 }

@@ -49,10 +49,15 @@ namespace EcoShop.Entrepreneur.Api.Controllers
         }
 
         [HttpGet("get-suppliers")]
-        public async Task<IEnumerable<SupplierDto>> GetProducts()
+        public async Task<IEnumerable<SupplierDto>> GetSuppliers()
         {
             return await _mediator.Send(new GetSuppliersQuery(), HttpContext.RequestAborted);
         }
 
+        [HttpGet("get-supplier/{id}")]
+        public async Task<SupplierDto> GetSupplier(Guid id)
+        {
+            return await _mediator.Send(new GetSupplierByIdQuery() { Id = id }, HttpContext.RequestAborted);
+        }
     }
 }
